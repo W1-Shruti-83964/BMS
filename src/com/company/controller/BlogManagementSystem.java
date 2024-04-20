@@ -17,7 +17,7 @@ public class BlogManagementSystem {
     private int categoryIdCounter = 1;
 
     // Method to handle user registration
-    // Making commits wait
+    // Making commits wai
     public void registerUser(String fullName, String email, String password, String phoneNo) {
         // Create user object and add it to the users map
         User user = new User(userIdCounter++, fullName, email, password, phoneNo, new Date());
